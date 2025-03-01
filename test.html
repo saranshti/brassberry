@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .question-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .next-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="question-container">
+  <!-- Question 1 -->
+  <div class="question" id="question1">
+    <div id="QuestionTest">Question 1</div>
+    <div class="options">
+      <label><input type="radio" name="q1" value="option1"> Option 1</label>
+      <label><input type="radio" name="q1" value="option2"> Option 2</label>
+      <label><input type="radio" name="q1" value="option3"> Option 3</label>
+    </div>
+  </div>
+  <!-- Question 2 -->
+  <div class="question" id="question1" style="display: none;">
+    <h2>Question 2</h2>
+    <div class="options">
+      <label><input type="radio" name="q2" value="option1"> Option 4</label>
+      <label><input type="radio" name="q2" value="option2"> Option 5</label>
+      <label><input type="radio" name="q2" value="option3"> Option 6</label>
+    </div>
+  </div>
+  <!-- Question 3 -->
+  <div class="question" id="question3" style="display: none;">
+    <h2>Question 3</h2>
+    <div class="options">
+      <label><input type="radio" name="q3" value="option1"> Option 7</label>
+      <label><input type="radio" name="q3" value="option2"> Option 8</label>
+      <label><input type="radio" name="q3" value="option3"> Option 9</label>
+    </div>
+  </div>
+  <!-- Next button -->
+  <button class="next-btn" onclick="nextQuestion()">Next</button>
+</div>
+
+<script>
+  // Function to navigate to the next question
+  function nextQuestion() {
+    var currentQuestion = document.querySelector('.question:not([style*="none"])');
+    var nextQuestion = currentQuestion.nextElementSibling;
+    
+    if (nextQuestion) {
+      currentQuestion.style.display = 'none';
+      nextQuestion.style.display = 'block';
+    } else {
+      alert('You have completed the survey.');
+    }
+  }
+</script>
+</body>
+</html>

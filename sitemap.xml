@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://brassberryswing.com/</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/designer.html</loc>
+  <lastmod>2024-02-28T11:39:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/single.html</loc>
+  <lastmod>2024-02-28T11:40:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/wooden.html</loc>
+  <lastmod>2024-02-28T11:40:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/acrylic.html</loc>
+  <lastmod>2024-02-28T07:47:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/privacy.html</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/return.html</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/terms.html</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/shipping.html</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brassberryswing.com/index.html</loc>
+  <lastmod>2024-02-27T18:17:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
